@@ -65,7 +65,7 @@ function ImageViewer(container, options) {
   this.container = container
   this.options = Object.assign({}, ImageViewer.defaults, options)
 
-  this.zoomValue = 100
+  // this.zoomValue = 100
 
   container.classList.add('iv-container');
 
